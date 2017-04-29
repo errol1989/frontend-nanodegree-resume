@@ -123,6 +123,12 @@ a {
   clear: both;
 }
 
+.white {
+  background-color: #ffffff;
+  padding-bottom: 10px;
+  clear: both;
+}
+
 .dark-gray {
   background-color: #4a4a4a;
 }
@@ -142,9 +148,10 @@ a {
 }
 
 .flex-column {
+  display: -webkit-flex;
   display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
+  flex-flow: column nowrap;
+  justify-content: space-around;
   padding: 10px;
 }
 
@@ -161,10 +168,6 @@ ul {
   padding: 10px;
   width: 200px;
   display: none;
-}
-
-img {
-  padding: 10px;
 }
 
 span {
